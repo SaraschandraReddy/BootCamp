@@ -1,0 +1,22 @@
+MULTILEVEL INHERATACE
+____________________________________________
+class mobile{
+    String brand="Oneplus";
+    void phone(){
+    }
+}
+class color extends mobile{
+    String color_name="Syrian_Grey";
+    void style(){
+    }
+}
+class model extends color{
+    String Model="Nord2";
+    public static void main(String[] args){
+        model device=new model();
+        device.phone();
+        device.style();
+        System.out.println(device.brand+'_'+device.Model+" colour of "+device.color_name+" is my Phone");
+    }
+}
+_________________________________________________________

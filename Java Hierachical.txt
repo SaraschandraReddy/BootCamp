@@ -1,0 +1,29 @@
+HIERACHICAL INHERATACE
+____________________________________________________________________________
+class mobile{
+    String brand="Oneplus";
+    void phone(){
+    }
+}
+class color extends mobile{
+    String color_name="Syrian_Grey";
+    void style(){
+    }
+}
+class series extends mobile{
+    String name="Nord2";
+    void model(){
+    } 
+}
+class Main{
+    public static void main(String[] args){
+        color device=new color();
+        device.phone();
+        device.style();
+        series a=new series();
+        a.phone();
+        a.model();
+        System.out.println(a.brand+'_'+a.name+" colour of "+device.color_name+" is my Phone");
+    }
+}
+__________________________________________________________________________________________

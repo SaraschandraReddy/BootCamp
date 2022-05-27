@@ -1,0 +1,17 @@
+SINGLE INHERATANCE
+____________________
+class mobile{
+    String brand="Oneplus";
+    void phone(){
+    }
+}
+class model extends mobile{
+    String Model="Nord2";
+    public static void main(String[] args){
+        model device=new model();
+        device.phone();
+        System.out.println(device.brand+'_'+device.Model+" is my Phone");
+    }
+}
+___________________________
+
